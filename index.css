@@ -48,3 +48,35 @@ a{
     color: white;
     font-size: 1em;
 }
+
+li:hover a{
+    padding: 0px 7px;
+    border-radius: 10px;
+    font-size: large;
+}
+
+li:hover:nth-child(1) a{
+    background-color: honeydew;
+    color: black;
+}
+
+li:hover:nth-child(2) a{
+    background-color: honeydew;
+    color: #0b66c2;
+}
+
+li:hover:nth-child(3) a{
+    background-color: white;
+    color: #1da1f2;
+}
+
+li:hover:nth-child(4) a{
+    background-color: white;
+    color: #a757b4;
+}
+
+li:hover:nth-child(5) a{
+    background-color: white;
+    color: #309940;
+}
+
